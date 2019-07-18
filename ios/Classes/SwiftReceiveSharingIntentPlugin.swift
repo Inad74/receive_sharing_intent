@@ -17,6 +17,8 @@ public class SwiftReceiveSharingIntentPlugin: NSObject, FlutterPlugin, FlutterSt
     private var eventSinkImage: FlutterEventSink? = nil;
     private var eventSinkText: FlutterEventSink? = nil;
     
+    public typealias UIApplicationLaunchOptionsKey = UIApplication.LaunchOptionsKey
+    public typealias UIApplicationOpenURLOptionsKey = UIApplication.OpenURLOptionsKey
     
     public static func register(with registrar: FlutterPluginRegistrar) {
         let instance = SwiftReceiveSharingIntentPlugin()
